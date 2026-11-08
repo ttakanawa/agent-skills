@@ -26,7 +26,7 @@ echo "hello"
 Insert a space after the opening `|` and before the closing `|` in separator rows.
 
 - OK: `| ------ | ------------- |`
-  - NG: `|------|-------------|`
+- NG: `|------|-------------|`
 
 ## Code References
 

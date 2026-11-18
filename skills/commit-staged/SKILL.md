@@ -16,5 +16,4 @@ Create a commit from the currently staged changes.
 ## Execution
 
 - Inspect the staged diff; if nothing is staged, report it and stop. Leave unstaged changes untouched.
-- Present the proposed message and wait for explicit approval before committing.
-- Create the commit with the approved message and return its hash and message.
+- Create the commit and return its hash and message.

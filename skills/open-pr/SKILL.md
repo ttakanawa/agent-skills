@@ -11,6 +11,7 @@ Create a GitHub PR or GitLab MR using the appropriate tools for the repository's
 
 - Build the title and body from the branch's commits and diff, following the project's language and conventions.
 - Follow the repository's PR/MR template when available; otherwise write a concise description suited to the change.
+- For material design choices, summarize the viable alternatives considered, including the existing approach when viable. Explain the concrete trade-offs and why the chosen approach fits the request. If only one option is viable, state the constraint. Call out any new dependencies, permissions, setup, or ongoing maintenance the reviewer would inherit.
 - Use Mermaid diagrams proactively when they help reviewers understand the change's structure, relationships, or flow.
 - Include actual verification results and mark checklist items complete only when verified.
 - Do not add a generated-by footer.
